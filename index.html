@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZERAFASHION</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +21,13 @@
                     <li class="header__logo-item"><span>Giao hàng nội thành trong ngày</span></li>
                 </ul>
                 <img src="./assets/img/ZERAFASHION.png" alt="LOGO">
+                <ul class="header__logo-mininavlist">
+                    <li class="header__logo-mininavitem"><input type="text" id="searchInput" name="searchInput" placeholder="Nhập từ khóa tìm kiếm..."></li>
+                    <li class="header__logo-item"><button type="submit" onclick="searchFunction()"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                    <li class="header__logo-item"><button onclick="personalFunction()"><i class="fa-solid fa-circle-user"></i></button></li>
+                    <li class="header__logo-item"><button onclick="cartFunction()"><i class="fa-solid fa-bag-shopping"></i></i></button></li>
+                </ul>
+                
                 <ul></ul>
             </section>
             <!-- end header__logo-->
@@ -46,7 +54,21 @@
         <!-- end main-content -->
         
         <footer class= "footer">
-
+            <div>
+                <h1>ZERAFASHION</h1>
+                <p>Địa chỉ: 54 Nguyễn Lương Bằng, phường Hòa Khánh, quận Liên Chiểu, thành phố Đà Nẵng</p>
+                <p>Điện thoại: 035338842xx</p>
+                <p>Email: chinhdeit@gmail.com</p>
+            </div>
+            <div>
+                <p>Mạng Xã hội: </p>
+                <a href="#">Facebook</a>
+                <a href="">Zalo</a>
+                <a href="">Tiktok</a>
+                <a href="">Instagram</a>
+                <a href="">Youtube</a>
+                <a href="">X</a>
+            </div>
         </footer>
         <!-- end footer -->
     </div>
