@@ -1,0 +1,21 @@
+header{
+    min-height: 150;
+}
+.header{
+    float: left;
+    width: 100%;
+}
+.header__logo{
+    background-color: #F7F8FA;
+
+}
+.header__navbar{
+    background-color: #506CA6;
+
+}
+.header__navbar-list{
+    list-style: none;
+}
+.header__navbar-item{
+    display: inline-block;
+}
